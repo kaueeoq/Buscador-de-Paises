@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buscador de Países</title>
+  </head>
+  <body>
+    <header>
+      <h1>SearchCountries</h1>
+      <p>Explore countries in seconds.</p>
+    </header>
+    <main>
+      <div>
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Type a country name..."
+        />
+        <button id="searchButton">Search</button>
+      </div>
+      <select id="filterRegion">
+        <option value="">Filter by Region</option>
+        <option value="Africa">Africa</option>
+        <option value="Americas">Americas</option>
+        <option value="Asia">Asia</option>
+        <option value="Europe">Europe</option>
+        <option value="Oceania">Oceania</option>
+      </select>
+      <div id="results"></div>
+    </main>
+  </body>
+</html>
