@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+:root {
+  --color-fundo: #091413;
+  --color-secundario: #408a71;
+  --color-destaque: #64ffda;
+  --color-texto: #b0e4cc;
+  --color-texto2: #0d2420;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--color-fundo);
+  color: var(--color-destaque);
+  font-family: "Inter", sans-serif;
+}
+header {
+  text-align: center;
+  padding: 60px 20px 40px;
+}
+h1 {
+  font-size: 24px;
+}
+header p {
+  font-size: 14px;
+}
+main {
+  max-width: 1000px;
+  padding: 20px;
+  margin: 0 auto;
+}
+input::placeholder {
+  color: var(--color-texto2);
+  opacity: 0.7;
+  display: flex;
+}
+input,
+select {
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--color-secundario);
+  color: var(--color-texto2);
+}
+button {
+  background-color: var(--color-destaque);
+  color: var(--color-texto2);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.search-box {
+  display: flex;
+  gap: 8px;
+}
+.search-box input {
+  flex: 1;
+}
+select {
+  width: auto;
+  margin-top: 6px;
+}
